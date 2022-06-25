@@ -1,0 +1,23 @@
+.summary_container{
+    display: flex;
+    align-items: center;
+}
+
+
+.old_enrollment {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    
+    .old_enrollment_box_1 { grid-area: 1 / 1 / 4 / 4; }
+    .old_enrollment_box_2 { grid-area: 1 / 4 / 4 / 7; }
+    .old_enrollment_box_3 { grid-area: 4 / 1 / 7 / 4; }
+    .old_enrollment_box_4 { grid-area: 4 / 4 / 7 / 7; }
+    .old_enrollment_box_5 { grid-area: 7 / 1 / 10 / 4; }
+    .old_enrollment_box_6 { grid-area: 7 / 4 / 10 / 7; }
+    .old_enrollment_box_7 { grid-area: 10 / 1 / 13 / 4; }
+    .old_enrollment_box_8 { grid-area: 10 / 4 / 13 / 7; }
