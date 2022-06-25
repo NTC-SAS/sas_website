@@ -1,5 +1,4 @@
 
-import styles from '../styles/Mainsas.module.css'
 
 export default function Faq () {
     return(
