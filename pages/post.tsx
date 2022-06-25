@@ -6,19 +6,21 @@ import { Post } from "../typings";
 
 
 
+
 interface Props{
     posts: [Post];
 }
 
 export default function post( {posts}: Props) {
-    
 
 
     return (
 
        <div>
 
-
+            <div>
+                <Link href='/'>Back</Link>
+            </div>
 
             <div className="grid grid-cols-1 gap-3 p-2 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 md:p-6">
                 {posts.map((post) => (

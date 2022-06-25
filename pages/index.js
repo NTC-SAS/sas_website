@@ -5,6 +5,7 @@ import Offices from '../components/Offices'
 
 
 import Faq from '../components/Faq'
+import Footer from '../components/Footer'
 
 
 export default function Home({greets, title, content}) {
@@ -64,6 +65,8 @@ export default function Home({greets, title, content}) {
       
     <Faq />
     <Offices />
+    <Footer />
+
     </div>
   )
 }

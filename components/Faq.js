@@ -13,7 +13,7 @@ export default function Faq () {
             <div className="container px-5 mx-auto">
                 <section className="px-6 py-12 bg-white md:py-20 md:px-0">
                     <div className="m-auto max-w-default">
-                        <div className="px-6">
+                        <div className="">
                             <h2 className="text-3xl font-bold text-gray-800 md:text-5xl faq" id="faq"> Frequently Asked Questions</h2>
                             <p>
                                 At The National Teachers College, 
@@ -288,7 +288,7 @@ export default function Faq () {
                                     <div className="faq_dropdown">
                                         <div className="flex items-center">
                                             <img src="/illustrations/hand-question-mark.png" className="question_mark" alt="" />
-                                            <p>Enrollment process for Old Students</p>
+                                            <p>NTC I.D. Application</p>
                                         </div>
                                     
                                         <div>
@@ -301,52 +301,49 @@ export default function Faq () {
                                     
                                 </summary>
                                 <p className="px-3 py-2 text-gray-600">
-                                    You are officially enrolled once your payment has been validated. Kindly allow 1 - 3 days for the validation process to be completed.
-                                    To check if your payment has been validated:
-                                    Click Online Enrollment
-                                    Scroll down to Account Summary
-                                    Validated payment will be reflected there
-                                    If your payment has not been validated after 3 working days after payment has been made, kindly email accounting.support@ntc.edu.ph and provide proof of payment.
-                                    • You may proceed to pay your fees so that you can be officially enrolled. However, Enrollment Advisers will double-check the subjects you enrolled in and will get in touch with you should there be a problem.
-
+                                1.) Photo must be 2”x2” in size with plain white background. <br />
+                                2.) Photo must not be more than 6 months old at the date of uploading.<br />
+                                3.) Student must be in decent dark attire.<br />
+                                4.) No cap or hat - applicants can only wear head covers for reasons of religion or belief.<br />
+                                5.) Save picture image in jpg format using your student number as file name
+                                ex: 87345601.jpg<br /><br />
+                                Signature Requirements:<br />
+                                1.) Signature should be black with plain white background.<br />
+                                2.) Save the signature image in bitmap (bmp) format using your student number as the file name.
+                                Ex: 87345601.bmp
+                                Images that are not within the required format will not be processed.<br /><br />
+                                Application links:<br />
+                                ID Application for Kinder to JHS Students: https://bit.ly/3vxxUCG<br />
+                                ID Application for Senior High School: https://bit.ly/3C7Kg5y<br />
+                                ID Application for College Students: https://bit.ly/3K6Ad3E<br />
+                                ID Application for Graduate Students: https://bit.ly/3pqqAow<br /><br />
+                                To view the list of printed IDs, please sign in to Google using your NTC account then click the link below:<br />
+                                https://drive.google.com/.../1x9z886T0DzPmiu51D <br />
+                                If your ID is already available, you may pick it up at the NTC elementary gate. Please inform the guard on duty about your purpose.
                                 </p>
 
                                 <br />
                                 
                                 <div className="enrollment-container">
-                                    <div className="old_enrollment">
+                                    <div className="id_application">
                                         
-                                        <div className="old_enrollment_box_1"> 
-                                        <img src="/Old-student-enrollment/step1.jpg" alt="" />
+                                        <div className="id_application_box-1"> 
+                                        <img src="/ID-Application/ID.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_2"> 
-                                        <img src="/Old-student-enrollment/step2.jpg" alt="" />
+                                        <div className="id_application_box-2"> 
+                                        <img src="/ID-Application/step-1.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_3"> 
-                                        <img src="/Old-student-enrollment/step3.jpg" alt="" />
+                                        <div className="id_application_box-3"> 
+                                        <img src="/ID-Application/step-2.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_4"> 
-                                        <img src="/Old-student-enrollment/step3-fullpayment.jpg" alt="" />
+                                        <div className="id_application_box-4"> 
+                                        <img src="/ID-Application/step-3.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_5"> 
-                                        <img src="/Old-student-enrollment/step3.3.jpg" alt="" />
-                                        </div>
 
-                                        <div className="old_enrollment_box_6"> 
-                                        <img src="/Old-student-enrollment/step4.jpg" alt="" />
-                                        </div>
-
-                                        <div className="old_enrollment_box_7"> 
-                                        <img src="/Old-student-enrollment/reminders.v1.jpg" alt="" />
-                                        </div>
-
-                                        <div className="old_enrollment_box_8"> 
-                                        <img src="/Old-student-enrollment/reminders.v2.jpg" alt="" />
-                                        </div>
 
                                     </div>
                                 </div>
@@ -367,7 +364,7 @@ export default function Faq () {
                                     <div className="faq_dropdown">
                                         <div className="flex items-center">
                                             <img src="/illustrations/hand-question-mark.png" className="question_mark" alt="" />
-                                            <p>Enrollment process for Old Students</p>
+                                            <p>Password reset procedure of NTC student portal</p>
                                         </div>
                                     
                                         <div>
@@ -380,51 +377,103 @@ export default function Faq () {
                                     
                                 </summary>
                                 <p className="px-3 py-2 text-gray-600">
-                                    You are officially enrolled once your payment has been validated. Kindly allow 1 - 3 days for the validation process to be completed.
-                                    To check if your payment has been validated:
-                                    Click Online Enrollment
-                                    Scroll down to Account Summary
-                                    Validated payment will be reflected there
-                                    If your payment has not been validated after 3 working days after payment has been made, kindly email accounting.support@ntc.edu.ph and provide proof of payment.
-                                    • You may proceed to pay your fees so that you can be officially enrolled. However, Enrollment Advisers will double-check the subjects you enrolled in and will get in touch with you should there be a problem.
-
+                                    Please Follow the procedure.
                                 </p>
 
                                 <br />
                                 
                                 <div className="enrollment-container">
-                                    <div className="old_enrollment">
+                                    <div className="portal_password">
                                         
-                                        <div className="old_enrollment_box_1"> 
-                                        <img src="/Old-student-enrollment/step1.jpg" alt="" />
+                                        <div className="portal_password_box_1"> 
+                                        <img src="/Portal-password/step1.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_2"> 
-                                        <img src="/Old-student-enrollment/step2.jpg" alt="" />
+                                        <div className="portal_password_box_2"> 
+                                        <img src="/Portal-password/step2.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_3"> 
-                                        <img src="/Old-student-enrollment/step3.jpg" alt="" />
+                                        <div className="portal_password_box_3"> 
+                                        <img src="/Portal-password/step3.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_4"> 
-                                        <img src="/Old-student-enrollment/step3-fullpayment.jpg" alt="" />
+                                        <div className="portal_password_box_4"> 
+                                        <img src="/Portal-password/step4.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_5"> 
-                                        <img src="/Old-student-enrollment/step3.3.jpg" alt="" />
+                                        <div className="portal_password_box_5"> 
+                                        <img src="/Portal-password/step5.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_6"> 
-                                        <img src="/Old-student-enrollment/step4.jpg" alt="" />
+                                        <div className="portal_password_box_6"> 
+                                        <img src="/Portal-password/step6.jpg" alt="" />
                                         </div>
 
-                                        <div className="old_enrollment_box_7"> 
-                                        <img src="/Old-student-enrollment/reminders.v1.jpg" alt="" />
+                                    </div>
+                                </div>
+
+                            </details>
+
+                        </div>
+                    </div>
+                    
+
+
+                    <div className="">
+                        
+                        <div className="m-auto md:max-w-full">
+                            <details className="mb-2 border-b-2">
+                                <summary className= "p-4 pt-5 mb-1 text-lg font-bold text-gray-800 cursor-pointer focus:text-blue-700 summary_container"> 
+                                    
+                                    <div className="faq_dropdown">
+                                        <div className="flex items-center">
+                                            <img src="/illustrations/hand-question-mark.png" className="question_mark" alt="" />
+                                            <p>The Application for the Monthly installment plan for the 1st semester</p>
+                                        </div>
+                                    
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                                            </svg>
                                         </div>
 
-                                        <div className="old_enrollment_box_8"> 
-                                        <img src="/Old-student-enrollment/reminders.v2.jpg" alt="" />
+                                    </div>
+                                    
+                                </summary>
+
+
+                                <br />
+                                
+                                <div className="enrollment-container">
+                                    <div className="monthly_installment">
+                                        
+                                        <div className="monthly_installment_box_1"> 
+                                        <img src="/Monthly-installment/monthly-installment.jpg" alt="" />
+                                        </div>
+
+                                        <div className="monthly_installment_box_2"> 
+                                            <p>
+                                                                                                
+                                                <b> Announcement from Accounting Office </b>  <br /> <br />
+
+                                                Following are the payment channel options you may use to settle your fees:<br />
+                                                Via Student Portal<br />
+                                                ECPay (video tutorial: https://bit.ly/37n9Jue)<br />
+                                                Dragonpay (video tutorial: https://bit.ly/37n9Jue)<br /><br />
+
+                                                Via Over-the-counter Payment in Equicom or RCBC<br />
+                                                Use bills payment slip (NOT deposit slip)<br />
+                                                Via NTC Cashier<br />
+                                                To ensure that we adhere to the health protocols and to ensure safety of our students, parents, and employees, we would like to emphasize the strict implementation of onsite appointment system starting tomorrow, February 3, 2021.
+                                                Those who intend to pay onsite must:<br /><br />
+                                                1.      Fill in the Google form posted weekly on the NTC Official Community Group at least 2 days before your visit.<br />
+                                                2.      Arrive on the scheduled appointment date wearing your face masks and face shields.
+                                                Your safety is our top priority. Only visitors who scheduled an appointment through Google form will be accommodated.
+                                                Tenders accepted onsite:<br />
+                                                Cash
+                                                Debit and Credit Cards (VISA, Master Card, JCB, Union Pay) <br />
+                                                Please note that for credit cards, only straight payment transactions are currently accepted.
+                                            </p>
                                         </div>
 
                                     </div>

@@ -1,4 +1,7 @@
+import { useRouter } from 'next/router'
+
 export default function HeaderSas() {
+    const router = useRouter()
     return(
 
         <div>
@@ -29,13 +32,8 @@ export default function HeaderSas() {
                                     </a>
                                     </li>
                                     <li>
-                                    <a href="#" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
+                                    <a href="#faq" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
                                         <span className="relative group-hover:text-cyan-800">Frequently Asked Questions</span>
-                                    </a>
-                                    </li>
-                                    <li>
-                                    <a href="#" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
-                                        <span className="relative group-hover:text-cyan-800">Organizational Structure</span>
                                     </a>
                                     </li>
                                     <li>
@@ -43,6 +41,13 @@ export default function HeaderSas() {
                                         <span className="relative group-hover:text-cyan-800">Offices</span>
                                     </a>
                                     </li>
+
+                                    <li>
+                                        <a onClick={() => router.push('/post')} className="relative cursor-pointer group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
+                                            <span className="relative group-hover:text-cyan-800">Student Activities</span>
+                                        </a>
+                                    </li>
+
                                 </ul>
 
                                 </div>
