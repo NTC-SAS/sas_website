@@ -28,9 +28,7 @@ function Activities( { post }: Props) {
                 </h2>
 
             <div>
-            <img 
-            src={urlFor(post.mainImage)} alt="" 
-            />
+            <img src={urlFor(post.mainImage)} alt="" />
             
             </div>
 
