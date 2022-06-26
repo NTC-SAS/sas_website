@@ -1,10 +1,13 @@
 import Footer from "../../components/Footer"
+import HeaderOsa from "../../components/HeaderOsa"
 
 
 export default function osa () {
     return (
        
         <div>
+
+            <HeaderOsa />
             
             <style jsx>
             {`
