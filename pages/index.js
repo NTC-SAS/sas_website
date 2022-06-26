@@ -14,7 +14,7 @@ export default function Home({greets, title, content}) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Student Affairs Service</title>
+        <title> Student Affairs Service</title>
         <meta name="description" content="This is the Official Website of Student Affairs Service" />
         <meta name="author" content="Student Affairs Service" />
         <meta name="copyright" content="Student Affairs Service" />
@@ -47,7 +47,7 @@ export default function Home({greets, title, content}) {
         </div>
 
       <Summary 
-        greets = "Hello students!"
+        greets = "Hello students!s"
         title = "How Can We Help you Today?"
         content = "The National Teachers College is a premier education institution that develops top-level manpower skills. It seeks to further its philosophy, mission and vision by imparting to its graduates a high degree of competence in their chosen career, and in their quest for the required specialized knowledge, training and professional preparation for national and international endeavours. In this age of convergence, NTC helps graduates excel in a just & equitable world, armed with wisdom, excellence, relevance, access and effectiveness in the attainment of national productivity and world-class competitiveness. All courses are information-technology enhanced with a wide variety of specialization for personal and professional growth."
 
