@@ -6,7 +6,6 @@ import { Post } from "../typings";
 
 
 
-
 interface Props{
     posts: [Post];
 }
@@ -17,7 +16,7 @@ export default function post( {posts}: Props) {
     return (
 
        <div>
-
+      
             <div>
                 <Link href='/'>Back</Link>
             </div>

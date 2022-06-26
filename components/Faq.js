@@ -1,31 +1,11 @@
+import Link from "next/link";
 
 
 export default function Faq () {
     return(
-
-
-
-
-
-
-
      <div>
-            <div className="container px-5 mx-auto">
-                <section className="px-6 py-12 bg-white md:py-20 md:px-0">
-                    <div className="m-auto max-w-default">
-                        <div className="">
-                            <h2 className="text-3xl font-bold text-gray-800 md:text-5xl faq" id="faq"> Frequently Asked Questions</h2>
-                            <p>
-                                At The National Teachers College, 
-                                we boost the continuous development of our students through multiple 
-                                student services. Our guidance center and student affairs office are well
-                                equipped to help students address any developmental challenge they may have.
-                            </p>
-                        </div>
-                    </div>
 
-
-                    <style jsx> {
+<style jsx> {
                         `
 
                         .sas_title{
@@ -88,6 +68,7 @@ export default function Faq () {
                             border: 1px solid rgb(107, 106, 106);
                             line-height: 1.2;
                             background-color: #fff3e8;
+                            overflow: hidden;
                         }
                         
                         details > p{
@@ -96,6 +77,12 @@ export default function Faq () {
                             user-select: none;
                                
                         }
+                        
+                        details p span{
+                            text-decoration: underline;
+                            color: blue;
+                        }
+
                         
                         
                         /* Old enrollment */
@@ -198,6 +185,23 @@ export default function Faq () {
                         
                         `}
                     </style>
+                    
+            <div className="container px-5 mx-auto">
+                <section className="px-6 py-12 bg-white md:py-20 md:px-0">
+                    <div className="m-auto max-w-default">
+                        <div className="">
+                            <h2 className="text-3xl font-bold text-gray-800 md:text-5xl faq" id="faq"> Frequently Asked Questions</h2>
+                            <p>
+                                At The National Teachers College, 
+                                we boost the continuous development of our students through multiple 
+                                student services. Our guidance center and student affairs office are well
+                                equipped to help students address any developmental challenge they may have.
+                            </p>
+                        </div>
+                    </div>
+
+
+
 
                     <div className="mt-10 md:mt-16">
                         
@@ -318,7 +322,7 @@ export default function Faq () {
                                 ID Application for College Students: https://bit.ly/3K6Ad3E<br />
                                 ID Application for Graduate Students: https://bit.ly/3pqqAow<br /><br />
                                 To view the list of printed IDs, please sign in to Google using your NTC account then click the link below:<br />
-                                https://drive.google.com/.../1x9z886T0DzPmiu51D <br />
+                                <span> <Link href={"https://drive.google.com/.../1x9z886T0DzPmiu51D"}>  https://drive.google.com/.../1x9z886T0DzPmiu51D </Link> </span> <br />
                                 If your ID is already available, you may pick it up at the NTC elementary gate. Please inform the guard on duty about your purpose.
                                 </p>
 
@@ -419,6 +423,8 @@ export default function Faq () {
                     
 
 
+
+
                     <div className="">
                         
                         <div className="m-auto md:max-w-full">
@@ -443,39 +449,37 @@ export default function Faq () {
 
 
                                 <br />
-                                
-                                <div className="enrollment-container">
-                                    <div className="monthly_installment">
-                                        
-                                        <div className="monthly_installment_box_1"> 
-                                        <img src="/Monthly-installment/monthly-installment.jpg" alt="" />
-                                        </div>
 
-                                        <div className="monthly_installment_box_2"> 
-                                            <p>
+
+                                <div className="grid grid-flow-row-dense grid-cols-1 grid-rows-1 p-3 gap-y-5 md:grid-cols-2 md:grid-rows-1 md:gap-x-1">
+                                    <div className="col-span-3 md:col-span-1">
+                                    <img src="/Monthly-installment/monthly-installment.jpg" className="md:mx-5" alt="" />
+                                    </div>
+
+
+                                    <div className="col-span-5 md:col-span-1 md:mr-20">
+                                        <p>
                                                                                                 
-                                                <b> Announcement from Accounting Office </b>  <br /> <br />
-
-                                                Following are the payment channel options you may use to settle your fees:<br />
-                                                Via Student Portal<br />
-                                                ECPay (video tutorial: https://bit.ly/37n9Jue)<br />
-                                                Dragonpay (video tutorial: https://bit.ly/37n9Jue)<br /><br />
-
-                                                Via Over-the-counter Payment in Equicom or RCBC<br />
-                                                Use bills payment slip (NOT deposit slip)<br />
-                                                Via NTC Cashier<br />
-                                                To ensure that we adhere to the health protocols and to ensure safety of our students, parents, and employees, we would like to emphasize the strict implementation of onsite appointment system starting tomorrow, February 3, 2021.
-                                                Those who intend to pay onsite must:<br /><br />
-                                                1.      Fill in the Google form posted weekly on the NTC Official Community Group at least 2 days before your visit.<br />
-                                                2.      Arrive on the scheduled appointment date wearing your face masks and face shields.
-                                                Your safety is our top priority. Only visitors who scheduled an appointment through Google form will be accommodated.
-                                                Tenders accepted onsite:<br />
-                                                Cash
-                                                Debit and Credit Cards (VISA, Master Card, JCB, Union Pay) <br />
-                                                Please note that for credit cards, only straight payment transactions are currently accepted.
-                                            </p>
-                                        </div>
-
+                                          <b> Announcement from Accounting Office </b>  <br /> <br />
+                                                
+                                          Following are the payment channel options you may use to settle your fees:<br />
+                                          Via Student Portal<br />
+                                          ECPay (video tutorial: https://bit.ly/37n9Jue)<br />
+                                          Dragonpay (video tutorial: https://bit.ly/37n9Jue)<br /><br />
+                                                
+                                          Via Over-the-counter Payment in Equicom or RCBC<br />
+                                          Use bills payment slip (NOT deposit slip)<br />
+                                          Via NTC Cashier<br />
+                                          To ensure that we adhere to the health protocols and to ensure safety of our students, parents, and employees, we would like to emphasize the strict implementation of onsite appointment system starting tomorrow, February 3, 2021.
+                                          Those who intend to pay onsite must:<br /><br />
+                                          1.      Fill in the Google form posted weekly on the NTC Official Community Group at least 2 days before your visit.<br />
+                                                                                                2.      Arrive on the scheduled appointment date wearing your face masks and face shields.
+                                                                                                Your safety is our top priority. Only visitors who scheduled an appointment through Google form will be accommodated.
+                                                                                                Tenders accepted onsite:<br />
+                                                                                                Cash
+                                                                                                Debit and Credit Cards (VISA, Master Card, JCB, Union Pay) <br />
+                                                                                                Please note that for credit cards, only straight payment transactions are currently accepted.
+                                </p>
                                     </div>
                                 </div>
 
@@ -483,6 +487,7 @@ export default function Faq () {
 
                         </div>
                     </div>
+
 
 
 

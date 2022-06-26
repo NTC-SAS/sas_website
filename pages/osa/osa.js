@@ -15,34 +15,21 @@ export default function osa () {
                 color: white;
             }
             .blur{
-                filter: blur(10px);
+                filter: blur(2px);
               }
               .mv-container{
                 background: linear-gradient(0deg, rgba(37, 37, 37, 0.781), rgba(255, 251, 251, 0.562)), url('/images-sas/bg_component.jpg');
-                /* background-image: url('../assets/bg_component.jpg'); */
                 background-repeat: no-repeat;
                 background-size: cover;
+              }
+
               
-              }
-              .mv-card{
-               
-               
-               
-                backdrop-filter: blur(4.4px);
-                -webkit-backdrop-filter: blur(4.4px);
-                  padding: 50px;
-              }
-              
-              .mv-card > p{
-                font-size: var(--font-size-sm);
-              }
             
               
                 .mission_title,
                 .vission_title,
                 .values_title{
                 border-bottom: 2px solid yellow;
-                padding: 5px;
                 font-size: 2em;
                 }
             
@@ -53,23 +40,22 @@ export default function osa () {
                   }
                   
                   
-                  .mission, .vission, .values{
-                    text-align: justify;
-                  }
+
             
             `}
             </style>
 
 
-            <div className="w-full bg-center bg-cover bg-slate-900 h-120 bg_pages" style={{ backgroundImage: "url(/images-sas/background_pages.png)" }}>
+            <div className="w-full bg-center bg-cover h-95 bg-slate-900 bg_pages" style={{ backgroundImage: "url(/images-sas/background_pages.png)" }}>
                 <div className="container flex flex-col py-12 mx-auto sm:py-24">
                     <div className="flex-col items-center justify-center w-11/12 mb-5 sm:w-2/3 lg:flex sm:mb-10 header_title">
-                        <h1 className="text-2xl leading-7 tracking-wider text-center home_title sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
-                        Welcome to Office of the <br /> Student Affairs
+                        <h1 className="mx-4 text-2xl leading-7 tracking-wider home_title sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10">
+                        Office of the <br /> Student Affairs
                         </h1>
                     </div>
                 </div>
             </div>
+
 
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
@@ -97,13 +83,14 @@ export default function osa () {
             {/* mision vission, goal */}
 
             <section className="text-white body-font mv-container">
-                <div className="container px-5 py-24 mx-auto ">
+                <div className="container py-24 mx-auto ">
                 <div className="flex flex-wrap justify-center m-4">
-                    <div className="p-4 lg:w-1/3">
+                    <div className="lg:w-1/3">
                     <div className="relative h-full p-20 px-8 pt-16 pb-24 overflow-hidden text-center bg-opacity-75 rounded-lg mv-card">
                         <i className="icons fa fa-flag"></i>
                         <h1 className="mb-3 font-bold tracking-widest title-font sm:text-2xl mission_title">Mision</h1>
-                        <p className="mt-8 mb-3 leading-relaxed tracking-widest mission">
+                        
+                        <p className="w-full mt-8 leading-7 tracking-wider text-left mission">
                             The National Teachers College office of the Students Affairs (NTC-OSA) 
                             commits itself to produce future workforce who possess moral and spiritual uprightness, 
                             and who impose upon themselves a high degree of social discipline and leadership 
@@ -117,7 +104,7 @@ export default function osa () {
                     <div className="relative h-full p-20 px-8 pt-16 pb-24 overflow-hidden text-center bg-opacity-75 rounded-lg mv-card">
                         <i className="icons fa fa-lightbulb-o"></i>
                         <h1 className="mb-3 font-bold tracking-widest text-white title-font sm:text-2xl vission_title">Vission</h1>
-                        <p className="mt-8 mb-3 leading-relaxed tracking-widest vission">
+                        <p className="w-full mt-8 leading-7 tracking-wider text-left vission">
                             The NTC-OSA shall be geared toward the pursuit of strong leadership 
                             abilities for all students by emphasizing the exercise of dynamic, 
                             proactive and innovative leadership.
@@ -129,7 +116,8 @@ export default function osa () {
                     <div className="relative h-full p-20 px-8 pt-16 pb-24 overflow-hidden text-center bg-opacity-75 rounded-lg mv-card">
                         <i className="icons fa-solid fa-hands-holding-circle"></i>
                         <h1 className="mb-3 font-bold tracking-widest text-white title-font sm:text-2xl values_title">Values</h1>
-                        <p className="mt-8 mb-3 leading-relaxed tracking-widest values">
+
+                        <p className="w-full mt-8 leading-7 tracking-wider text-left values">
                         NTC envisions itself as a leading academic institution for the development of all levels of education anchored
                         on the ideals of Excellence, Relevance, Access, and Effectiveness, geared towards national productivity and
                         world-class competitiveness.

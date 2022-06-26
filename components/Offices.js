@@ -7,10 +7,10 @@ export default function Faq() {
   const router = useRouter()
 
     return (
-        <div className="container px-5 mx-auto">
-        <section className="px-6 py-12 bg-white md:py-20 md:px-0">
+        <div className="container mx-auto">
+        <section className="py-12 bg-white md:py-20 md:px-0">
             <div className="m-auto max-w-default">
-              <div className="">
+              <div className="mx-5">
                 <h2 className="py-4 text-3xl font-bold text-gray-800 md:text-4xl faq" id="offices"> Other Ways to get help</h2>
                 <p>
                     At The National Teachers College, 

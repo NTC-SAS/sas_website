@@ -12,7 +12,7 @@ export default function Home({greets, title, content}) {
   return (
     <div>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Student Affairs Service</title>
         <meta name="description" content="This is the Official Website of Student Affairs Service" />
@@ -26,9 +26,9 @@ export default function Home({greets, title, content}) {
         {/* ----------------------- Main --------------------------------------*/}
 
         <div className="w-full bg-center bg-cover bg-slate-900 h-120" style={{ backgroundImage: "url(/images-sas/Homepage_NTC.jpg)" }}>
-          <div className="container flex flex-col py-12 mx-auto sm:py-24">
-            <div className="flex-col items-center justify-center w-11/12 mb-5 sm:w-2/3 lg:flex sm:mb-10 header_title">
-              <h1 className="text-2xl leading-7 tracking-wider text-center text-white home_title sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10"
+          <div className="container flex flex-col px-4 py-12 mx-auto ">
+            <div className="flex-col w-11/12 mb-5 sm:w-2/3 lg:flex sm:mb-10 header_title">
+              <h1 className="text-3xl leading-8 tracking-wider text-center text-white home_title sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:leading-10"
                 style={{ textShadow: "4px 4px 3px #023e8a"}}
               >
                 Welcome to Student <br /> Affairs Service
