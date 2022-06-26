@@ -333,7 +333,7 @@ export default function support () {
                                                 NTC ID 
                                                 <br />
                                                 <br />
-                                                4. Registrar’s Office 
+                                                4. Registrars Office 
                                                 <br />
                                                 <br />
                                                 Authentication<br />
@@ -409,7 +409,7 @@ export default function support () {
                                                     Central Document Email Address: docrequest@ntc.edu.ph<br />
                                                     
                                                     <br /><br />
-                                                    Updating the clients regarding his/her request or if there's any clarification for the request. <br />
+                                                    Updating the clients regarding his/her request or if theres any clarification for the request. <br />
 
                                                     SSC reaches out the clients via phone call (mobile) to update the status of their request document.
                                                     
