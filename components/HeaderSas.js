@@ -18,10 +18,10 @@ export default function HeaderSas() {
 
                             <div className="flex items-center justify-end border-l lg:border-l-0">
                             <input type="checkbox" name="hamburger" id="hamburger" className="peer" hidden />
-                            <label htmlFor="hamburger" className="relative z-20 block p-6 -mr-6 cursor-pointer peer-checked:hamburger lg:hidden">
-                                <div aria-hidden="true" className="m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
-                                <div aria-hidden="true" className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
-                            </label>
+                                <label htmlFor="hamburger" className="fixed z-20 block p-5 -mr-5 cursor-pointer bg-slate-400 peer-checked:hamburger lg:hidden">
+                                    <div aria-hidden="true" className="m-auto h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
+                                    <div aria-hidden="true" className="m-auto mt-2 h-0.5 w-6 rounded bg-sky-900 transition duration-300"></div>
+                                </label>
 
                             <div className="peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-white border-r shadow-xl transition duration-300 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
                                 <div className="flex flex-col justify-between h-full lg:items-center lg:flex-row">
