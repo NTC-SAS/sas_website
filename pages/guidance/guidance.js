@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import Link from "next/link";
 
 export default function guidance () {
     return (
@@ -8,7 +9,7 @@ export default function guidance () {
                         <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
                         <div className="flex items-center justify-between">
                             <div className="relative z-20">
-                            <a href="#">
+                            <a href="">
                                 <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50" />
                             </a>
                             </div>
@@ -24,9 +25,11 @@ export default function guidance () {
                                 <div className="flex flex-col justify-between h-full lg:items-center lg:flex-row">
                                 <ul className="px-6 pt-32 space-y-8 text-gray-700 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                                     <li>
-                                    <a href="/" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:bg-cyan-100">
-                                        <span className="relative text-cyan-800">Home</span>
-                                    </a>
+                                            <span className="relative cursor-pointer group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:bg-cyan-100">     
+                                                <Link href='/'>  
+                                                    <span className="relative text-cyan-800">Home</span>
+                                                </Link>
+                                            </span>
                                     </li>
                                     <li>
                                     <a href="#faq" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
