@@ -305,15 +305,15 @@ export default function Faq () {
                                     
                                 </summary>
                                 <p className="px-3 py-2 text-gray-600">
-                                1.) Photo must be 2”x2” in size with plain white background. <br />
-                                2.) Photo must not be more than 6 months old at the date of uploading.<br />
-                                3.) Student must be in decent dark attire.<br />
-                                4.) No cap or hat - applicants can only wear head covers for reasons of religion or belief.<br />
-                                5.) Save picture image in jpg format using your student number as file name
+                                1. Photo must be 2”x2” in size with plain white background. <br />
+                                2. Photo must not be more than 6 months old at the date of uploading.<br />
+                                3. Student must be in decent dark attire.<br />
+                                4. No cap or hat - applicants can only wear head covers for reasons of religion or belief.<br />
+                                5. Save picture image in jpg format using your student number as file name
                                 ex: 87345601.jpg<br /><br />
                                 Signature Requirements:<br />
-                                1.) Signature should be black with plain white background.<br />
-                                2.) Save the signature image in bitmap (bmp) format using your student number as the file name.
+                                1. Signature should be black with plain white background.<br />
+                                2. Save the signature image in bitmap (bmp) format using your student number as the file name.
                                 Ex: 87345601.bmp
                                 Images that are not within the required format will not be processed.<br /><br />
                                 Application links:<br />
