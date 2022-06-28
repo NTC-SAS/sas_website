@@ -17,7 +17,7 @@ function Activities( { post }: Props) {
    
 
     return(
-        <main>
+        <main className="select-none">
 
 
 
@@ -33,7 +33,7 @@ function Activities( { post }: Props) {
                 
                 <Link href='/post'>
                     <div className="flex items-center gap-2 cursor-pointer">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 rounded-2xl hover:bg-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                         </svg>
                         <h6>Back</h6>
@@ -44,14 +44,18 @@ function Activities( { post }: Props) {
                 <h3 className="mb-2 text-xl font-light text-gray-500">
                     {post.description}
                 </h3>
-                <p>Posted at: {post._createdAt}</p>
+                <p>Posted at: {post._createdAt}</p> 
 
             <div className="mt-10">
+
                 <PortableText 
                 
                 dataset = {process.env.NEXT_PUBLIC_SANITY_DATASET!}
-                projectId = {process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+                projectId = {process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}         
+    
+
                 content = {post.body}
+                
 
                 serializers = {{
                     h1: (props: any) => (

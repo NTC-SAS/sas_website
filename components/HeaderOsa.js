@@ -40,9 +40,12 @@ export default function HeaderOsa() {
                                     </a>
                                     </li>
                                     <li>
-                                    <a href="https://drive.google.com/drive/u/0/folders/13IeMrGKDnLOaL1lgnxTR9boEHjGj90YJ" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
-                                        <span className="relative group-hover:text-cyan-800">Student hand book</span>
-                                    </a>
+
+                                        <span className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
+                                            <Link href='/osa/student_handbook'>
+                                                <span className="relative group-hover:text-cyan-800">Student hand book</span>
+                                            </Link>
+                                        </span>
                                     </li>
 
                                     <li>

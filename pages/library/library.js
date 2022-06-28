@@ -21,7 +21,6 @@ export default function library () {
           .fakeimg {
             background-color: #aaa;
             width: 100%;
-            overflow: auto;
           }
           .fakeimg img{
             width: 100%;
@@ -30,7 +29,6 @@ export default function library () {
           .announcement_image{
             overflow: auto;
             overflow: hidden;
-            height: 80vh;
           }
           
           .card {
@@ -145,11 +143,11 @@ export default function library () {
             </div>
 
 
-            <div className="row">
+            <div className=" row">
 
-                <div className="leftcolumn">
+                <div className="border-2 leftcolumn">
                 
-                <div className="card">
+                <div className="card ">
                     <h2>E-LIBRARY RESOURCE GUIDELINES FOR FACULTY
                     AND STUDENTS OF NATIONAL TEACHERS COLLEGE</h2>
                     <br />
@@ -161,7 +159,7 @@ export default function library () {
                     </h5>
                     <br />
                         <div className="fakeimg announcement_image">
-                            <img src="/images-sas/library-announcement.webp" alt="" />
+                            <img src="/images-sas/faculty.jpg" alt="" />
                         </div>
                     <br />
                         <p>Guidelines for Faculty on How to Access Library Resources
@@ -187,20 +185,42 @@ export default function library () {
                 </div>
 
                 <div className="card">
-                    <h2>Announcement</h2>
-                    <h5>description, Sep 2, 2022</h5>
-                    <div className="fakeimg" style={{height: "200px"}}>Image</div>
-
+                    <h2>Guidelines for Students on How to Access Library Resources</h2>
+                        <div className="fakeimg announcement_image">
+                            <img src="/images-sas/library-announcement.webp" alt="" />
+                        </div>
+              
                     <br />
                     <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>
+                        5.1. Access to Physical Resources (SHS, Undergraduate and Graduate Students) 
+                        <br />
+                        <br />
+                        5.1.1. Due to the current health restrictions placed upon the institution, browsing
+                        the shelves of the libraries (Main, Graduate and Basic Education Library) is
+                        strictly limited to library staff only. Thus, students who want to borrow physical
+                        books from the library must first fill up the Google Form (Link:
+                        https://forms.gle/tBS2Abk9K9h7RLS5A) provided by the library.
+                        (See Appendix B)
+                        <br />
+                        <br />
+
+                        5.1.2. Only 2 books are allowed to be borrowed per transaction<br />
+                        5.1.3. Book/s will be ready within 2 days upon date of request<br />
+                        5.1.4. Borrowers will be notified via email once the material is ready for pick-up<br />
+                        5.1.5. Students must present their Library Card / Registration Form upon pick-up
+                        and fill up the borrowers form.<br />
+                        5.1.6. Pick-up time for books is from 9:00am - 3:00pm Monday to Friday except
+                        holiday.<br />
+                        
+                    </p>
                 </div>
 
                 </div>
                 
                 
                 
-                <div className="rightcolumn">
+                <div className="sticky top-0 right-0 rightcolumn">
                 <div className="card">
                     <h2>E-Library Resource Guidelines</h2>
                     <div className="fakeimg">

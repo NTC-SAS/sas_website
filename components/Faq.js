@@ -336,7 +336,7 @@ export default function Faq () {
                                         </div>
 
                                         <div className="id_application_box-2"> 
-                                        <img src="/ID-Application/step-1.jpg" alt="" />
+                                        <img src="/ID-Application/Step-1.jpg" alt="" />
                                         </div>
 
                                         <div className="id_application_box-3"> 
