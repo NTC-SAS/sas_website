@@ -82,9 +82,9 @@ export default function library () {
                         <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
                         <div className="flex items-center justify-between">
                             <div className="relative z-20">
-                            <a href="#">
-                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50" />
-                            </a>
+                            <Link href="/">
+                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50 cursor-pointer" />
+                            </Link>
                             </div>
 
                             <div className="flex items-center justify-end border-l lg:border-l-0">

@@ -72,9 +72,9 @@ export default function support () {
                         <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
                         <div className="flex items-center justify-between">
                             <div className="relative z-20">
-                            <a href="#">
-                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50" />
-                            </a>
+                            <Link href="/">
+                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50 cursor-pointer" />
+                            </Link>
                             </div>
 
                             <div className="flex items-center justify-end border-l lg:border-l-0">
@@ -89,9 +89,9 @@ export default function support () {
                                 <ul className="px-6 pt-32 space-y-8 text-gray-700 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                                     <li>
                                     <span className="relative cursor-pointer group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:bg-cyan-100">     
-                                                    <Link href='/'>  
-                                                        <span className="relative text-cyan-800">Home</span>
-                                                    </Link>
+                                         <Link href='/'>  
+                                               <span className="relative text-cyan-800">Home</span>
+                                         </Link>
                                         </span>
                                     </li>
                                     <li>

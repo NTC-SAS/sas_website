@@ -29,7 +29,7 @@ function Activities( { post }: Props) {
 
             
 
-            <article className="relative max-w-3xl p-10 mx-auto overflow-hidden">
+            <article className="relative max-w-5xl p-10 mx-auto overflow-hidden">
                 
                 <Link href='/post'>
                     <div className="flex items-center gap-2 cursor-pointer">
@@ -41,10 +41,10 @@ function Activities( { post }: Props) {
                 </Link>    
 
                 <h1 className="mt-10 mb-3 text-3xl">{post.title}</h1>
-                <h3 className="mb-2 text-xl font-light text-gray-500">
+                <h6 className="mb-2 text-sm font-light text-gray-500">
                     {post.description}
-                </h3>
-                <p>Posted at: {post._createdAt}</p> 
+                </h6>
+                <p className="text-sm">Posted at: {post._createdAt}</p> 
 
             <div className="mt-10">
 

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+import Link from "next/Link"
 
 export default function HeaderOsa() {
     const router = useRouter()
@@ -12,8 +12,8 @@ export default function HeaderOsa() {
                         <div className="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
                         <div className="flex items-center justify-between">
                             <div className="relative z-20">
-                            <a href="#">
-                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50" />
+                            <a>
+                                <img src="/images-sas/ntc_main_logo.png" alt="National Teachers College Logo" className="w-50" onClick={() => router.push('/')} />
                             </a>
                             </div>
 
@@ -35,15 +35,17 @@ export default function HeaderOsa() {
                                         </span>
                                     </li>
                                     <li>
-                                    <a href="" className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
-                                        <span className="relative group-hover:text-cyan-800">Contact</span>
-                                    </a>
+                                    <span className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
+                                            <Link href='/osa/contact'>
+                                                <span className="relative group-hover:text-cyan-800 cursor-pointer">Contact Us</span>
+                                            </Link>
+                                        </span>
                                     </li>
                                     <li>
 
                                         <span className="relative group behtmlFore:absolute behtmlFore:inset-x-0 behtmlFore:bottom-0 behtmlFore:h-2 behtmlFore:origin-right behtmlFore:scale-x-0 behtmlFore:bg-cyan-100 behtmlFore:transition behtmlFore:duration-200 hover:behtmlFore:origin-left hover:behtmlFore:scale-x-100">
-                                            <Link href='/osa/student_handbook'>
-                                                <span className="relative group-hover:text-cyan-800">Student hand book</span>
+                                            <Link href='https://drive.google.com/drive/u/0/folders/13IeMrGKDnLOaL1lgnxTR9boEHjGj90YJ'>
+                                                <span className="relative group-hover:text-cyan-800 cursor-pointer">Student hand book</span>
                                             </Link>
                                         </span>
                                     </li>
