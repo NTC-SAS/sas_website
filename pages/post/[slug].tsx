@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "../../typings";
 import PortableText from "react-portable-text";
-import Link from "../../node_modules/next/link";
+import Link from "next/Link";
 
 
 import {FacebookShareButton} from 'next-share';
@@ -40,8 +40,8 @@ function Activities( { post }: Props) {
                     </div>
                 </Link>    
 
-                <h1 className="mt-10 mb-3 text-3xl">{post.title}</h1>
-                <h6 className="mb-2 text-sm font-light text-gray-500">
+                <h1 className="mt-10 md:text-left text-center mb-3 text-3xl">{post.title}</h1>
+                <h6 className="mb-2  text-sm font-light text-gray-500">
                     {post.description}
                 </h6>
                 <p className="text-sm">Posted at: {post._createdAt}</p> 
