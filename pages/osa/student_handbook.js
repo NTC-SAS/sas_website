@@ -97,7 +97,7 @@ export default function student_handbook () {
                                 BOARD OF TRUSTEES
                         </h1>
                             <br />
-                        <table class="table-auto w-full ">
+                        <table className="table-auto w-full ">
                             <tbody className="text-center">
                                 <tr className="border-2">
                                     <td className="border-2 p-2">Alfredo I. Ayala, MBA</td>
@@ -129,7 +129,7 @@ export default function student_handbook () {
 
                         <h1 className="text-center font-bold p-6">ADMINISTRATION OFFICIALS</h1>
                             <br />
-                        <table class="table-auto w-full ">
+                        <table className="table-auto w-full ">
                             <tbody className="text-center">
                                 <tr className="border-2">
                                     <td className="border-2 p-2">Alfredo I. Ayala, MBA</td>
@@ -249,7 +249,7 @@ export default function student_handbook () {
                                     <p>
                                         NTC envisions itself as a leading academic institution for the development of all levels of education anchored
                                         on the ideals of Excellence, Relevance, Access, and Effectiveness, geared towards national productivity and
-                                        world-class competitiveness.
+                                        world-className competitiveness.
                                     </p>
                             </div>
 
