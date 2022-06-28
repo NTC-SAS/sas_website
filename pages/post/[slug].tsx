@@ -3,8 +3,7 @@ import { GetStaticProps } from "next";
 import { sanityClient, urlFor } from "../../sanity";
 import { Post } from "../../typings";
 import PortableText from "react-portable-text";
-import Link from "next/Link";
-
+import Link from "next/link";
 
 import {FacebookShareButton} from 'next-share';
   
